@@ -17,7 +17,7 @@ void push_func(stack_t **h, unsigned int count)
 			i++;
 		for (; bus.args[i] != '\0'; i++)
 		{
-			if (bus.args[i] < 48 || bus.args[i] > 57)
+			if (bus.args[i] > 57 || bus.args[i] < 48)
 				flag = 1;
 		}
 		if (flag == 1)
