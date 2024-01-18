@@ -12,8 +12,10 @@ void pall_func(stack_t **h, unsigned int count)
 	(void)count;
 
 	head = *h;
+
 	if (head == NULL)
 		return;
+
 	while (head)
 	{
 		printf("%d\n", head->n);

@@ -38,6 +38,7 @@ void push_func(stack_t **h, unsigned int count)
 		exit(EXIT_FAILURE);
 	}
 	n = atoi(bus.args);
+
 	if (bus.chg_flag == 0)
 		addnode(h, n);
 	else
