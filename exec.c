@@ -1,12 +1,12 @@
 #include "monty.h"
 
 /**
- * execute_op - execute opcode
+ * execute_op - executes opcode
  * @stack: stack
  * @count: line number
  * @file: points to the monty file
  * @cont: content of the line
- *
+ * Return: 0 or 1
  */
 
 int execute_op(char *cont, stack_t **stack, unsigned int count, FILE *file)
