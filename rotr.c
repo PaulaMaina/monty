@@ -12,6 +12,7 @@ void rotr_func(stack_t **h, unsigned int count)
 	(void)count;
 
 	temp = *h;
+
 	if (*h == NULL  || (*h)->next == NULL)
 		return;
 

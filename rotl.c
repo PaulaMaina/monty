@@ -18,6 +18,7 @@ void rotl_func(stack_t **h, unsigned int count)
 
 	temp = (*h)->next;
 	temp->prev = NULL;
+	
 	while (curr->next != NULL)
 		curr = curr->next;
 
