@@ -16,9 +16,6 @@ void pall_func(stack_t **h, unsigned int count)
 	if (head == NULL)
 		return;
 
-	while (head)
-	{
+	for (; head != NULL; head = head->next)
 		printf("%d\n", head->n);
-		head = head->next;
-	}
 }
