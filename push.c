@@ -37,6 +37,7 @@ void push_func(stack_t **h, unsigned int count)
 		free_stack(*h);
 		exit(EXIT_FAILURE);
 	}
+
 	n = atoi(bus.args);
 
 	if (bus.chg_flag == 0)
